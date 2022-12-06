@@ -1,4 +1,5 @@
 #!/bin/bash
-head -n +3 iatca | tail -n +3
+head --lines=3 iacta | tail --lines=1
+:wq
 
 
